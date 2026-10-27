@@ -8,7 +8,14 @@ This flake provides a small Nix-built **launcher**, not a Nix-built copy of yt-d
 
 ## Quick start
 
-From this repository:
+From this repository remotely:
+
+```sh
+nix shell github:primaemateriae/yt-dlp-fresh#yt-dlp
+yt-dlp --version
+```
+
+From this repository locally:
 
 ```sh
 nix shell .#yt-dlp
